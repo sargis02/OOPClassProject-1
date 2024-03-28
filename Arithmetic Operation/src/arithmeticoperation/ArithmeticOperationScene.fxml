@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="arithmeticoperation.ArithmeticOperationSceneController">
+   <children>
+      <TextField layoutX="226.0" layoutY="97.0" fx:id="xTextField" />
+      <TextField fx:id="yTextField" layoutX="226.0" layoutY="142.0" />
+      <Label layoutX="161.0" layoutY="101.0" text="Enter X" />
+      <Label layoutX="161.0" layoutY="146.0" text="Enter Y" />
+      <Button fx:id="addButton" layoutX="154.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#addButtonOnMouseClicked" onMouseEntered="#addButtonOnMouseEntered" onMouseExited="#addButtonOnMouseExited" prefHeight="25.0" prefWidth="68.0" text="ADD" />
+      <Button layoutX="233.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#substractButtonOnMouseClicked" prefHeight="25.0" prefWidth="68.0" text="Substract" />
+      <Button layoutX="307.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#multiplyButtonOnMouseClicked" prefHeight="25.0" prefWidth="68.0" text="Multiply" />
+      <Label fx:id="resultLabel" layoutX="154.0" layoutY="236.0" prefHeight="54.0" prefWidth="223.0" style="-fx-background-color: silver;" text="Result:" />
+   </children>
+</AnchorPane>
